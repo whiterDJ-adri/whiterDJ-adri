@@ -13,31 +13,47 @@ Me interesa que funcionen bien por dentro y que se entiendan por fuera.
 
 ---
 
-## 00 / Selección de equipo
+## 00 / Ficha de personaje
 
-Cada misión trae sus propios problemas. Estos tres ya conocen el mapa.
+```yaml
+clase: desarrollador web
+habilidad_pasiva: conectar diseño, interfaz y datos
+estilo_de_juego: entender el problema antes de tocar el código
+debilidad: "solo voy a cambiar una cosa"
+```
+
+## 01 / Selección de equipo
+
+Cuatro compañeros para una misión. Ninguno ha prometido que todo vaya a compilar a la primera.
 
 <table>
 <tr>
-<td align="center" width="33%">
+<td align="center" width="50%">
 <img src="./assets/linux-patrol-lab.svg" width="100%" alt="Pingüino Linux paseando entre los logs." /><br />
 <strong>TUX / OPS</strong><br />
 <sub>Patrulla los logs. Si vuelve con una alerta, abro la terminal.</sub>
 </td>
-<td align="center" width="33%">
+<td align="center" width="50%">
 <img src="./assets/arch-launch.svg" width="100%" alt="Cohete pixelado inspirado en Arch Linux despegando." /><br />
 <strong>ARCH / BOOST</strong><br />
 <sub>Revisa la configuración antes del despegue. Dos veces, por si acaso.</sub>
 </td>
-<td align="center" width="33%">
+</tr>
+<tr>
+<td align="center" width="50%">
 <img src="./assets/react-orbit.svg" width="100%" alt="Mascota React pixelada girando en órbita." /><br />
 <strong>REACT / LOOP</strong><br />
 <sub>Cambias un estado y ya está dando otra vuelta.</sub>
 </td>
+<td align="center" width="50%">
+<img src="./assets/docker-cargo.svg" width="100%" alt="Ballena Docker transportando contenedores." /><br />
+<strong>DOCKER / CARGO</strong><br />
+<sub>Se lleva los contenedores. La frase “en mi máquina funciona” viaja aparte.</sub>
+</td>
 </tr>
 </table>
 
-## 01 / Inventario
+## 02 / Inventario
 
 ```ini
 [interfaz]
@@ -59,25 +75,22 @@ contenedores = Docker
 control_de_versiones = Git
 ```
 
-## 02 / Misiones activas
+## 03 / Misiones activas
 
 - Construir funcionalidades web de principio a fin, desde la interfaz hasta los datos.
 - Conectar servicios y entender qué ocurre entre una petición y su respuesta.
 - Seguir explorando Linux, automatización y buenas formas de resolver problemas.
 
-## 03 / Registro de incidencias
+## 04 / Jefe final
 
 <details>
-<summary>Abrir el cuaderno de campo</summary>
+<summary>“Es un cambio pequeño”</summary>
 
 ```text
-BUG-01  “Es un cambio pequeño”
-        Alcance real: varios archivos y una búsqueda en la documentación.
-
-BUG-02  “En mi máquina funcionaba”
-        Sospechoso habitual: configuración distinta.
-
-PLAN    Leer el error, seguir el rastro y cambiar una cosa cada vez.
+MISIÓN     tocar un botón
+GIRO       descubrir que también depende de una API
+GIRO 2     la API consulta una base de datos
+VICTORIA   entender el recorrido y cambiarlo sin romper el resto
 ```
 
 </details>
