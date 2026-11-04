@@ -75,13 +75,44 @@ contenedores = Docker
 control_de_versiones = Git
 ```
 
-## 03 / Misiones activas
+## 03 / Partidas guardadas
+
+Dos proyectos, dos tipos de misión: uno convierte preguntas en una partida; el otro conecta una Raspberry Pi con una aplicación web.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+### Akineitor
+
+Un juego web que intenta adivinar un personaje de Dragon Ball con preguntas de sí o no. El algoritmo Bayesiano elige preguntas informativas y aprende cuando el jugador lo corrige.
+
+**PHP · MySQL · Tailwind · API REST**
+
+[Probar la demo](https://akinator.innovux.es/) · [Ver el repositorio](https://github.com/whiterDJ-adri/akineitor)
+
+</td>
+<td width="50%" valign="top">
+
+### Raspberry Pi: ojo al movimiento
+
+Una cámara captura imágenes y las envía a una API para guardarlas y consultarlas desde un panel web. Une código en la Raspberry Pi, backend y base de datos.
+
+**Python · OpenCV · Flask · MongoDB**
+
+[Ver el repositorio](https://github.com/whiterDJ-adri/raspberryPi)
+
+</td>
+</tr>
+</table>
+
+## 04 / Misiones activas
 
 - Construir funcionalidades web de principio a fin, desde la interfaz hasta los datos.
 - Conectar servicios y entender qué ocurre entre una petición y su respuesta.
 - Seguir explorando Linux, automatización y buenas formas de resolver problemas.
 
-## 04 / Jefe final
+## 05 / Jefe final
 
 <details>
 <summary>“Es un cambio pequeño”</summary>
