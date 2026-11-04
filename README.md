@@ -1,56 +1,53 @@
 <div align="center">
 
-# Adrià Martínez Morales
+<img src="./assets/cyberpunk-header.gif" width="100%" alt="Adrià Martínez Morales. Desarrollo, integración y diseño. Cabecera animada cyberpunk." />
 
-**SOFTWARE DEVELOPMENT · SYSTEM INTEGRATION · UX/UI**
+**Software Developer · Full Stack · UX/UI**
 
-Desarrollo aplicaciones, conecto sistemas y diseño interfaces.
-
-[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Repositorios](https://github.com/whiterDJ-adri?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) &nbsp; / &nbsp; [Explorar repositorios](https://github.com/whiterDJ-adri?tab=repositories)
 
 </div>
 
 ---
 
-### Del diseño al código
+### 01 / Del diseño al código
 
 Soy desarrollador de software y titulado en Desarrollo de Aplicaciones Web, con una trayectoria previa en diseño web, diseño gráfico y UX/UI.
 
-Trabajo en aplicaciones internas, integraciones mediante APIs REST y bases de datos. Me interesa entender cómo encaja cada parte de una aplicación, desde la interfaz hasta la lógica de negocio y la información que la sostiene.
+Trabajo en aplicaciones internas, integraciones mediante APIs REST y bases de datos. Me interesa comprender cómo encaja cada parte de una aplicación y adaptar las herramientas a las necesidades de cada proyecto.
 
-### Una visión multidisciplinar
+### 02 / Una visión multidisciplinar
 
 | Desarrollo | Integración | Diseño |
-| --- | --- | --- |
-| Funcionalidades frontend y backend, organización del código y aplicaciones web. | Conexión entre sistemas mediante APIs REST y trabajo con bases de datos. | Interfaces, prototipos y experiencia de usuario con una base en diseño visual. |
+| :--- | :--- | :--- |
+| Frontend y backend. Funcionalidades web y organización del código. | APIs REST, conexión entre sistemas y gestión de datos. | Interfaces, prototipos y experiencia de usuario. |
 
-### Herramientas con las que trabajo
+### 03 / Tecnologías y herramientas
 
-**Desarrollo e integración**  
-JavaScript · Node.js · Express · APIs REST · SQL · MariaDB
+**En mi trabajo**  
+`JavaScript` `Node.js` `Express` `APIs REST` `SQL` `MariaDB`
 
 **También utilizadas en proyectos personales y académicos**  
-React · MongoDB · Docker
+`React` `MongoDB` `Docker`
 
 **Entorno y diseño**  
-Git · GitLab · Linux · Figma
+`Git` `GitLab` `Linux` `Figma`
 
-### Cómo abordo los proyectos
+### 04 / Cómo trabajo
 
-- Entender la necesidad y el contexto antes de implementar.
-- Conectar la experiencia de usuario con las decisiones técnicas.
+- Comprender la necesidad y el contexto de cada funcionalidad.
+- Conectar las decisiones técnicas con la experiencia de usuario.
 - Organizar el código para facilitar su comprensión y mantenimiento.
-- Aprender y adaptar las herramientas a las necesidades del proyecto.
+- Aprender tecnologías y colaborar con perfiles diferentes.
 
-### Lo que me mueve
-
-Me interesa el recorrido completo del software, desde una idea hasta una aplicación que pueda utilizarse. Sigo profundizando en desarrollo web, automatización y entornos Linux, combinando aprendizaje y práctica.
+Me interesa seguir profundizando en desarrollo web, automatización y entornos Linux, combinando aprendizaje y práctica.
 
 ---
 
 <div align="center">
 
-**Código, sistemas y diseño. Una perspectiva compartida.**
+**ADRIÀ MARTÍNEZ MORALES**  
+Desarrollo de software · Integración de sistemas · Diseño UX/UI
 
 [Conecta conmigo en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/)
 
