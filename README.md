@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cyberpunk-header.gif" width="100%" alt="Adrià Martínez Morales. Desarrollo, integración y diseño. Cabecera animada cyberpunk." />
+<img src="./assets/oni-tech-banner.svg" width="100%" alt="Ilustración de una oni con logotipos tecnológicos en negro sobre negro." />
 
 **Software Developer · Full Stack · UX/UI**
 
