@@ -2,10 +2,10 @@
 
 <img src="./assets/oni-tech-banner.svg" width="100%" alt="Oni ilustrada con logotipos tecnológicos negros sobre fondo oscuro." />
 
-### Del diseño al código, y del código a que todo encaje
+### Desarrollo web · integración · UX/UI
 
-Desarrollo aplicaciones web, conecto servicios y pienso en cómo se sienten las interfaces al usarlas.  
-Me gusta entender el recorrido completo: lo que ve la persona, lo que responde el servidor y los datos que lo mantienen en marcha.
+Construyo aplicaciones web conectando interfaz, servidor y datos.  
+Me interesa que funcionen bien por dentro y que se entiendan por fuera.
 
 [LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Proyectos y experimentos](https://github.com/whiterDJ-adri?tab=repositories)
 
@@ -13,55 +13,71 @@ Me gusta entender el recorrido completo: lo que ve la persona, lo que responde e
 
 ---
 
-## La party del editor
+## 00 / Selección de equipo
 
-Cada proyecto tiene su equipo de soporte. El mío no siempre sigue el plan, pero suele aparecer cuando hace falta.
+Cada misión trae sus propios problemas. Estos tres ya conocen el mapa.
 
 <table>
 <tr>
 <td align="center" width="33%">
-<img src="./assets/linux-patrol-lab.svg" width="100%" alt="Pingüino Linux caminando mientras vigila los logs." /><br />
-<strong>Linux · guardia nocturna</strong><br />
-<sub>Hace rondas por los logs. Si vuelve con una alerta, toca abrir la terminal.</sub>
+<img src="./assets/linux-patrol-lab.svg" width="100%" alt="Pingüino Linux paseando entre los logs." /><br />
+<strong>TUX / OPS</strong><br />
+<sub>Patrulla los logs. Si vuelve con una alerta, abro la terminal.</sub>
 </td>
 <td align="center" width="33%">
-<img src="./assets/arch-launch.svg" width="100%" alt="Cohete con forma de A inspirado en Arch Linux despegando." /><br />
-<strong>Arch · propulsión</strong><br />
-<sub>El despegue es rápido. La lista de comprobación evita aterrizajes raros.</sub>
+<img src="./assets/arch-launch.svg" width="100%" alt="Cohete pixelado inspirado en Arch Linux despegando." /><br />
+<strong>ARCH / BOOST</strong><br />
+<sub>Revisa la configuración antes del despegue. Dos veces, por si acaso.</sub>
 </td>
 <td align="center" width="33%">
-<img src="./assets/react-orbit.svg" width="100%" alt="React orbitando alrededor de su estado." /><br />
-<strong>React · en órbita</strong><br />
-<sub>Cambia una cosa y vuelve a renderizar. Por si acaso. Y otra vez.</sub>
+<img src="./assets/react-orbit.svg" width="100%" alt="Mascota React pixelada girando en órbita." /><br />
+<strong>REACT / LOOP</strong><br />
+<sub>Cambias un estado y ya está dando otra vuelta.</sub>
 </td>
 </tr>
 </table>
 
-## Herramientas del taller
+## 01 / Inventario
 
-| Zona | Tecnologías |
-| :--- | :--- |
-| **Interfaz** | JavaScript · React · Astro · UX/UI · Figma |
-| **Servidor e integración** | Node.js · Express · APIs REST |
-| **Datos** | SQL · MariaDB · MongoDB |
-| **Entorno** | Linux / Arch · Docker · Git |
+```ini
+[interfaz]
+JavaScript = React, Astro
+diseño = UX/UI, Figma
 
-Trabajo con funcionalidades web, aplicaciones internas e integración entre sistemas y bases de datos. También me importa que el código sea fácil de entender y que la interfaz no obligue a adivinar qué hacer.
+[servidor]
+runtime = Node.js
+framework = Express
+integraciones = APIs REST
 
-## Misiones en curso
+[datos]
+relacional = SQL, MariaDB
+documentos = MongoDB
 
-- Seguir construyendo proyectos de principio a fin, de la primera pantalla a la base de datos.
-- Profundizar en Linux, automatización y herramientas de desarrollo.
-- Encontrar el punto donde una solución útil también resulta agradable de usar.
+[base de operaciones]
+sistema = Linux, Arch
+contenedores = Docker
+control_de_versiones = Git
+```
+
+## 02 / Misiones activas
+
+- Construir funcionalidades web de principio a fin, desde la interfaz hasta los datos.
+- Conectar servicios y entender qué ocurre entre una petición y su respuesta.
+- Seguir explorando Linux, automatización y buenas formas de resolver problemas.
+
+## 03 / Registro de incidencias
 
 <details>
-<summary>Estado del laboratorio</summary>
+<summary>Abrir el cuaderno de campo</summary>
 
 ```text
-Servidor: despierto
-Contenedores: de acuerdo (por ahora)
-Bug inesperado: ascendido a tarea
-“Solo cambio una cosa”: expresión sin valor medible
+BUG-01  “Es un cambio pequeño”
+        Alcance real: varios archivos y una búsqueda en la documentación.
+
+BUG-02  “En mi máquina funcionaba”
+        Sospechoso habitual: configuración distinta.
+
+PLAN    Leer el error, seguir el rastro y cambiar una cosa cada vez.
 ```
 
 </details>
@@ -70,8 +86,8 @@ Bug inesperado: ascendido a tarea
 
 <div align="center">
 
-¿Tienes una idea, un proyecto o una API buscando nuevas amistades?
+¿Tienes una idea, una integración o una API que necesita compañía?
 
-[Conectemos en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Echa un vistazo a mis repositorios](https://github.com/whiterDJ-adri?tab=repositories)
+[Conectemos en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Explora mis repositorios](https://github.com/whiterDJ-adri?tab=repositories)
 
 </div>
