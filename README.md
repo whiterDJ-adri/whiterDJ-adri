@@ -1,54 +1,67 @@
 <div align="center">
 
-<img src="./assets/dev-side-quests.svg" width="100%" alt="Escena animada: el pingüino Linux pasea, Arch despega como un cohete y React gira en órbita." />
+<img src="./assets/oni-tech-banner.svg" width="100%" alt="Oni ilustrada con logotipos tecnológicos negros sobre fondo oscuro." />
 
-### Desarrollo web, integraciones y alguna misión secundaria
+### Del diseño al código, y del código a que todo encaje
 
-Me gusta conectar las piezas de una aplicación: interfaz, servidor, datos y experiencia de uso.  
-Si algo falla, primero miro los logs. Después miro por qué no había mirado los logs.
+Desarrollo aplicaciones web, conecto servicios y pienso en cómo se sienten las interfaces al usarlas.  
+Me gusta entender el recorrido completo: lo que ve la persona, lo que responde el servidor y los datos que lo mantienen en marcha.
 
-[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Mis proyectos](https://github.com/whiterDJ-adri?tab=repositories)
+[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Proyectos y experimentos](https://github.com/whiterDJ-adri?tab=repositories)
 
 </div>
 
 ---
 
-### El equipo de soporte
+## La party del editor
 
-- **Linux** patrulla el sistema. Si el pingüino vuelve con una alerta, abro la terminal.
-- **Arch** aporta el impulso. El despegue es rápido; el aterrizaje depende de la configuración.
-- **React** mantiene todo en órbita y vuelve a renderizar justo cuando te habías levantado.
-- **Node.js** se queda despierto atendiendo peticiones. A veces también se queda despierto el desarrollador.
-- **Docker** intenta que “en mi máquina funciona” signifique lo mismo en la de los demás.
+Cada proyecto tiene su equipo de soporte. El mío no siempre sigue el plan, pero suele aparecer cuando hace falta.
 
-### Herramientas del taller
+<table>
+<tr>
+<td align="center" width="33%">
+<img src="./assets/linux-patrol.svg" width="100%" alt="Pingüino Linux caminando mientras vigila los logs." /><br />
+<strong>Linux · guardia nocturna</strong><br />
+<sub>Hace rondas por los logs. Si vuelve con una alerta, toca abrir la terminal.</sub>
+</td>
+<td align="center" width="33%">
+<img src="./assets/arch-launch.svg" width="100%" alt="Cohete con forma de A inspirado en Arch Linux despegando." /><br />
+<strong>Arch · propulsión</strong><br />
+<sub>El despegue es rápido. La lista de comprobación evita aterrizajes raros.</sub>
+</td>
+<td align="center" width="33%">
+<img src="./assets/react-orbit.svg" width="100%" alt="React orbitando alrededor de su estado." /><br />
+<strong>React · en órbita</strong><br />
+<sub>Cambia una cosa y vuelve a renderizar. Por si acaso. Y otra vez.</sub>
+</td>
+</tr>
+</table>
 
-**Desarrollo e integración**  
-`JavaScript` · `Node.js` · `Express` · `APIs REST`
+## Herramientas del taller
 
-**Interfaces y proyectos web**  
-`React` · `Astro` · `UX/UI` · `Figma`
+| Zona | Tecnologías |
+| :--- | :--- |
+| **Interfaz** | JavaScript · React · Astro · UX/UI · Figma |
+| **Servidor e integración** | Node.js · Express · APIs REST |
+| **Datos** | SQL · MariaDB · MongoDB |
+| **Entorno** | Linux / Arch · Docker · Git |
 
-**Datos y entorno**  
-`SQL` · `MariaDB` · `MongoDB` · `Docker` · `Linux / Arch` · `Git`
+Trabajo con funcionalidades web, aplicaciones internas e integración entre sistemas y bases de datos. También me importa que el código sea fácil de entender y que la interfaz no obligue a adivinar qué hacer.
 
-Trabajo en aplicaciones web, integraciones entre servicios y gestión de datos. También disfruto pensando cómo hacer que una interfaz sea clara antes de añadirle otra animación innecesaria.
+## Misiones en curso
 
-### Misiones actuales
-
-- Construir funcionalidades útiles de principio a fin.
-- Entender mejor cómo se comunican las partes de una aplicación.
-- Seguir aprendiendo sobre Linux, automatización y desarrollo web.
-- Mantener los errores pequeños y los commits más pequeños todavía.
+- Seguir construyendo proyectos de principio a fin, de la primera pantalla a la base de datos.
+- Profundizar en Linux, automatización y herramientas de desarrollo.
+- Encontrar el punto donde una solución útil también resulta agradable de usar.
 
 <details>
-<summary>Diagnóstico rápido del laboratorio</summary>
+<summary>Estado del laboratorio</summary>
 
 ```text
 Servidor: despierto
-Contenedores: hablando entre ellos
-Bug inesperado: convertido en tarea
-“Solo cambio una cosa”: nunca es solo una cosa
+Contenedores: de acuerdo (por ahora)
+Bug inesperado: ascendido a tarea
+“Solo cambio una cosa”: expresión sin valor medible
 ```
 
 </details>
@@ -57,7 +70,7 @@ Bug inesperado: convertido en tarea
 
 <div align="center">
 
-¿Tienes una idea, un proyecto o una API con ganas de hablar con otra API?
+¿Tienes una idea, un proyecto o una API buscando nuevas amistades?
 
 [Conectemos en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Echa un vistazo a mis repositorios](https://github.com/whiterDJ-adri?tab=repositories)
 
