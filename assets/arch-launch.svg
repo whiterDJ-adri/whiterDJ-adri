@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
+<title>Arch Linux en despegue</title>
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#20264c"/><stop offset="1" stop-color="#12182f"/></linearGradient><linearGradient id="fire" x2="0" y2="1"><stop stop-color="#ffe66b"/><stop offset="1" stop-color="#ff668e"/></linearGradient></defs>
+<rect width="360" height="220" rx="22" fill="url(#bg)"/>
+<g fill="#e8edff" opacity=".65"><circle cx="46" cy="67" r="2"/><circle cx="309" cy="63" r="2"/><circle cx="280" cy="108" r="1.5"/></g>
+<path d="M180 171V67" stroke="#6574ae" stroke-width="2" stroke-dasharray="6 8" opacity=".7"/>
+<text x="23" y="35" fill="#a8b5ff" font-family="monospace" font-size="13" letter-spacing="2">ARCH / LIFTOFF CHECK</text>
+<g transform="translate(180 117)">
+ <animateTransform attributeName="transform" type="translate" values="180 125;180 82;180 125" dur="2.8s" repeatCount="indefinite"/>
+ <path d="M0-49L28 24 0 14-28 24Z" fill="#83b9ff" stroke="#e2edff" stroke-width="3" stroke-linejoin="round"/>
+ <path d="M0-32V11" stroke="#263766" stroke-width="4"/>
+ <circle cy="-2" r="9" fill="#ffe66b" stroke="#263766" stroke-width="3"/>
+ <path d="M-25 19L-42 38-17 32M25 19L42 38 17 32" fill="#ff668e" stroke="#ffc5d4" stroke-width="2"/>
+ <path d="M-13 28Q0 52 13 28Q10 53 0 65-10 53-13 28Z" fill="url(#fire)">
+  <animate attributeName="d" values="M-13 28Q0 52 13 28Q10 53 0 65-10 53-13 28Z;M-13 28Q0 62 13 28Q10 66 0 80-10 66-13 28Z;M-13 28Q0 52 13 28Q10 53 0 65-10 53-13 28Z" dur=".45s" repeatCount="indefinite"/>
+ </path>
+</g>
+<rect x="22" y="181" width="316" height="24" rx="12" fill="#161c38" stroke="#4a5689"/>
+<text x="39" y="197" fill="#b9c3e8" font-family="monospace" font-size="12">pacman: listo  /  config: revisada (dos veces)</text>
+</svg>
