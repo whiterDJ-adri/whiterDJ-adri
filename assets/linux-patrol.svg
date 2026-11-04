@@ -22,5 +22,5 @@
  </path>
 </g>
 <rect x="22" y="181" width="316" height="24" rx="12" fill="#161c38" stroke="#4a5689"/>
-<text x="37" y="197" fill="#b9c3e8" font-family="monospace" font-size="12">$ journalctl -f  // el pingüino ya lo está mirando</text>
+<text x="37" y="197" fill="#b9c3e8" font-family="monospace" font-size="12">$ journalctl -f  // alerta detectada</text>
 </svg>
