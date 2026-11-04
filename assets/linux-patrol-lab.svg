@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="220" viewBox="0 0 360 220">
+<title>Linux de guardia</title>
+<defs><linearGradient id="bg" x2="0" y2="1"><stop stop-color="#20264c"/><stop offset="1" stop-color="#12182f"/></linearGradient></defs>
+<rect width="360" height="220" rx="22" fill="url(#bg)"/>
+<circle cx="306" cy="47" r="22" fill="#ffd76a" opacity=".18"/>
+<path d="M24 161H336" stroke="#727db6" stroke-width="3" stroke-linecap="round"/>
+<path d="M36 175H324" stroke="#394368" stroke-width="2" stroke-dasharray="7 10">
+ <animate attributeName="stroke-dashoffset" values="0;-34" dur=".8s" repeatCount="indefinite"/>
+</path>
+<text x="23" y="35" fill="#a8b5ff" font-family="monospace" font-size="13" letter-spacing="2">LINUX / SYSTEM PATROL</text>
+<g transform="translate(38 83)">
+ <animateTransform attributeName="transform" type="translate" values="38 83;248 83;38 83" dur="5s" repeatCount="indefinite"/>
+ <ellipse cx="0" cy="75" rx="28" ry="5" fill="#0b1021" opacity=".6"/>
+ <ellipse cx="0" cy="31" rx="24" ry="39" fill="#10131c"/>
+ <ellipse cx="0" cy="42" rx="16" ry="25" fill="#f4f0e8"/>
+ <circle cx="-8" cy="-3" r="10" fill="#10131c"/><circle cx="8" cy="-3" r="10" fill="#10131c"/>
+ <circle cx="-7" cy="-1" r="3" fill="#fff"/><circle cx="9" cy="-1" r="3" fill="#fff"/>
+ <path d="M-6 8 Q0 2 7 8 L0 15Z" fill="#ff9e52"/>
+ <path d="M-18 30Q0 39 18 30L16 38Q0 46-16 38Z" fill="#6cdbbd"/>
+ <path d="M-14 66l-12 5m38-5 12 5" stroke="#ff9e52" stroke-width="6" stroke-linecap="round">
+  <animate attributeName="d" values="M-14 66l-12 5m38-5 12 5;M-14 67l-7-7m33 7 7-7;M-14 66l-12 5m38-5 12 5" dur=".6s" repeatCount="indefinite"/>
+ </path>
+</g>
+<rect x="22" y="181" width="316" height="24" rx="12" fill="#161c38" stroke="#4a5689"/>
+<text x="37" y="197" fill="#b9c3e8" font-family="monospace" font-size="12">$ journalctl -f  // alerta detectada</text>
+</svg>
