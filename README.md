@@ -1,54 +1,64 @@
 <div align="center">
 
-<img src="./assets/oni-tech-banner.svg" width="100%" alt="Ilustración de una oni con logotipos tecnológicos en negro sobre negro." />
+<img src="./assets/dev-side-quests.svg" width="100%" alt="Escena animada: el pingüino Linux pasea, Arch despega como un cohete y React gira en órbita." />
 
-**Software Developer · Full Stack · UX/UI**
+### Desarrollo web, integraciones y alguna misión secundaria
 
-[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) &nbsp; / &nbsp; [Explorar repositorios](https://github.com/whiterDJ-adri?tab=repositories)
+Me gusta conectar las piezas de una aplicación: interfaz, servidor, datos y experiencia de uso.  
+Si algo falla, primero miro los logs. Después miro por qué no había mirado los logs.
+
+[LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Mis proyectos](https://github.com/whiterDJ-adri?tab=repositories)
 
 </div>
 
 ---
 
-### 01 / Del diseño al código
+### El equipo de soporte
 
-Soy desarrollador de software y titulado en Desarrollo de Aplicaciones Web, con una trayectoria previa en diseño web, diseño gráfico y UX/UI.
+- **Linux** patrulla el sistema. Si el pingüino vuelve con una alerta, abro la terminal.
+- **Arch** aporta el impulso. El despegue es rápido; el aterrizaje depende de la configuración.
+- **React** mantiene todo en órbita y vuelve a renderizar justo cuando te habías levantado.
+- **Node.js** se queda despierto atendiendo peticiones. A veces también se queda despierto el desarrollador.
+- **Docker** intenta que “en mi máquina funciona” signifique lo mismo en la de los demás.
 
-Trabajo en aplicaciones internas, integraciones mediante APIs REST y bases de datos. Me interesa comprender cómo encaja cada parte de una aplicación y adaptar las herramientas a las necesidades de cada proyecto.
+### Herramientas del taller
 
-### 02 / Una visión multidisciplinar
+**Desarrollo e integración**  
+`JavaScript` · `Node.js` · `Express` · `APIs REST`
 
-| Desarrollo | Integración | Diseño |
-| :--- | :--- | :--- |
-| Frontend y backend. Funcionalidades web y organización del código. | APIs REST, conexión entre sistemas y gestión de datos. | Interfaces, prototipos y experiencia de usuario. |
+**Interfaces y proyectos web**  
+`React` · `Astro` · `UX/UI` · `Figma`
 
-### 03 / Tecnologías y herramientas
+**Datos y entorno**  
+`SQL` · `MariaDB` · `MongoDB` · `Docker` · `Linux / Arch` · `Git`
 
-**En mi trabajo**  
-`JavaScript` `Node.js` `Express` `APIs REST` `SQL` `MariaDB`
+Trabajo en aplicaciones web, integraciones entre servicios y gestión de datos. También disfruto pensando cómo hacer que una interfaz sea clara antes de añadirle otra animación innecesaria.
 
-**También utilizadas en proyectos personales y académicos**  
-`React` `MongoDB` `Docker`
+### Misiones actuales
 
-**Entorno y diseño**  
-`Git` `GitLab` `Linux` `Figma`
+- Construir funcionalidades útiles de principio a fin.
+- Entender mejor cómo se comunican las partes de una aplicación.
+- Seguir aprendiendo sobre Linux, automatización y desarrollo web.
+- Mantener los errores pequeños y los commits más pequeños todavía.
 
-### 04 / Cómo trabajo
+<details>
+<summary>Diagnóstico rápido del laboratorio</summary>
 
-- Comprender la necesidad y el contexto de cada funcionalidad.
-- Conectar las decisiones técnicas con la experiencia de usuario.
-- Organizar el código para facilitar su comprensión y mantenimiento.
-- Aprender tecnologías y colaborar con perfiles diferentes.
+```text
+Servidor: despierto
+Contenedores: hablando entre ellos
+Bug inesperado: convertido en tarea
+“Solo cambio una cosa”: nunca es solo una cosa
+```
 
-Me interesa seguir profundizando en desarrollo web, automatización y entornos Linux, combinando aprendizaje y práctica.
+</details>
 
 ---
 
 <div align="center">
 
-**ADRIÀ MARTÍNEZ MORALES**  
-Desarrollo de software · Integración de sistemas · Diseño UX/UI
+¿Tienes una idea, un proyecto o una API con ganas de hablar con otra API?
 
-[Conecta conmigo en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/)
+[Conectemos en LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Echa un vistazo a mis repositorios](https://github.com/whiterDJ-adri?tab=repositories)
 
 </div>
