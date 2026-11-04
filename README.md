@@ -20,7 +20,7 @@ Cada proyecto tiene su equipo de soporte. El mío no siempre sigue el plan, pero
 <table>
 <tr>
 <td align="center" width="33%">
-<img src="./assets/linux-patrol.svg" width="100%" alt="Pingüino Linux caminando mientras vigila los logs." /><br />
+<img src="./assets/linux-patrol-lab.svg" width="100%" alt="Pingüino Linux caminando mientras vigila los logs." /><br />
 <strong>Linux · guardia nocturna</strong><br />
 <sub>Hace rondas por los logs. Si vuelve con una alerta, toca abrir la terminal.</sub>
 </td>
