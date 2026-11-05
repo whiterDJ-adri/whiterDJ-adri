@@ -2,9 +2,9 @@
 
 <img src="./assets/oni-tech-banner.svg" width="100%" alt="Oni ilustrada con logotipos tecnológicos negros sobre fondo oscuro." />
 
-### Desarrollo web · integración · UX/UI
+### Desarrollo de aplicaciones · integración · UX/UI
 
-Construyo aplicaciones web conectando interfaz, servidor y datos.  
+Construyo aplicaciones conectando interfaz, lógica, servicios y datos.  
 Me interesa que funcionen bien por dentro y que se entiendan por fuera.
 
 [LinkedIn](https://www.linkedin.com/in/adriamartinezmorales/) · [Proyectos y experimentos](https://github.com/whiterDJ-adri?tab=repositories)
@@ -108,7 +108,7 @@ Una cámara captura imágenes y las envía a una API para guardarlas y consultar
 
 ## 04 / Misiones activas
 
-- Construir funcionalidades web de principio a fin, desde la interfaz hasta los datos.
+- Crear funcionalidades de aplicaciones de principio a fin, desde la interfaz hasta los datos.
 - Conectar servicios y entender qué ocurre entre una petición y su respuesta.
 - Seguir explorando Linux, automatización y buenas formas de resolver problemas.
 
