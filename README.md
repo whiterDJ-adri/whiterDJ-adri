@@ -1,7 +1,7 @@
 <div align="center">
 
 <a href="https://www.linkedin.com/in/adriamartinezmorales/">
-  <img src="./assets/oni-hero.svg" width="100%" alt="Ilustración de una oni con máscara sobre fondo amarillo y carbón, junto a la frase: diseño la interfaz, programo lo que hay detrás y lo conecto con los datos." />
+  <img src="./assets/oni-hero.svg" width="100%" alt="Ilustración de una oni con máscara sobre fondo amarillo y carbón. A su lado, una terminal escribe tres commits seguidos, cada uno prometiendo ser el último." />
 </a>
 
 Desarrollo de aplicaciones · integración · UX/UI
