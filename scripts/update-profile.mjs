@@ -225,11 +225,6 @@ function calculateTopLanguages(languageBytesByRepo) {
   }));
 }
 
-function countReposTouchedInLastDays(gameRepos, numberOfDays, referenceDate) {
-  const oldestAllowedTime = referenceDate.getTime() - numberOfDays * 24 * 60 * 60 * 1000;
-  return gameRepos.filter((repo) => new Date(repo.pushedAt).getTime() >= oldestAllowedTime).length;
-}
-
 // ---------------------------------------------------------------------------
 // 3. Dibujar la ficha de stats
 // ---------------------------------------------------------------------------
@@ -362,14 +357,20 @@ function describeTimeAgo(isoDate, referenceDate) {
 
   if (daysAgo <= 0) return "hoy";
   if (daysAgo === 1) return "ayer";
-  return `hace ${daysAgo} días`;
+  if (daysAgo < 60) return `hace ${daysAgo} días`;
+
+  const monthsAgo = Math.round(daysAgo / 30);
+  if (monthsAgo < 12) return `hace ${monthsAgo} meses`;
+
+  const yearsAgo = Math.round(daysAgo / 365);
+  return yearsAgo === 1 ? "hace 1 año" : `hace ${yearsAgo} años`;
 }
 
 function escapeMarkdownInline(text) {
   return text.replace(/([\\`*_[\]<>|])/g, "\\$1");
 }
 
-function buildLiveSectionMarkdown({ latestCommit, lastWeek, reposTouchedThisWeek, referenceDate }) {
+function buildLiveSectionMarkdown({ latestCommit, lastWeek, referenceDate }) {
   const lines = [];
 
   if (latestCommit) {
@@ -384,11 +385,10 @@ function buildLiveSectionMarkdown({ latestCommit, lastWeek, reposTouchedThisWeek
     lines.push("");
   }
 
-  const reposWord = reposTouchedThisWeek === 1 ? "repositorio" : "repositorios";
+  // Las contribuciones incluyen repos privados; por eso no contamos repos aquí (la API pública no los ve).
   const contributionsWord = lastWeek.contributionsThisWeek === 1 ? "contribución" : "contribuciones";
   lines.push(
-    `Esta semana: ${lastWeek.contributionsThisWeek} ${contributionsWord} en ${pluralizeDays(lastWeek.activeDaysThisWeek)}, ` +
-      `repartidas en ${reposTouchedThisWeek} ${reposWord}.`,
+    `Esta semana: ${lastWeek.contributionsThisWeek} ${contributionsWord} en ${pluralizeDays(lastWeek.activeDaysThisWeek)}.`,
   );
 
   return lines.join("\n");
@@ -411,7 +411,6 @@ async function main() {
   const streaks = calculateStreaks(profileData.contributionDays);
   const lastWeek = calculateLastWeek(profileData.contributionDays);
   const topLanguages = calculateTopLanguages(profileData.languageBytesByRepo);
-  const reposTouchedThisWeek = countReposTouchedInLastDays(profileData.gameRepos, 7, referenceDate);
 
   const statsCardSvg = await buildStatsCardSvg({ level, streaks, totalContributions, topLanguages });
   await writeFile(STATS_CARD_PATH, statsCardSvg);
@@ -420,7 +419,6 @@ async function main() {
   const liveSectionMarkdown = buildLiveSectionMarkdown({
     latestCommit: profileData.latestCommit,
     lastWeek,
-    reposTouchedThisWeek,
     referenceDate,
   });
   const updatedReadme = replaceBetweenMarkers(currentReadme, "VIVO", liveSectionMarkdown);
