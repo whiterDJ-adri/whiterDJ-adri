@@ -1,0 +1,42 @@
+# Cada noche regenera la ficha de stats y la sección "Última partida guardada".
+name: Perfil vivo
+
+on:
+  schedule:
+    - cron: "41 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: escribir-readme # comparte grupo con el Akineitor para no pisarse al hacer push
+  cancel-in-progress: false
+
+jobs:
+  actualizar:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Regenerar ficha y última partida
+        run: node scripts/update-profile.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Guardar cambios si los hay
+        run: |
+          if git diff --quiet; then
+            echo "Nada nuevo que guardar."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Perfil vivo: actualizar ficha y última partida"
+          git pull --rebase origin main
+          git push origin HEAD:main

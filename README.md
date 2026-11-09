@@ -22,6 +22,8 @@ estilo_de_juego: entender el problema antes de tocar el código
 debilidad: "solo voy a cambiar una cosa"
 ```
 
+<img src="./assets/generated/stats-card.svg" width="100%" alt="Ficha de stats: nivel, racha de días con commits y lenguajes más usados. Se actualiza cada noche." />
+
 ## Partidas guardadas
 
 Dos proyectos, dos tipos de misión: uno convierte preguntas en una partida; el otro conecta una Raspberry Pi con una aplicación web.
@@ -56,6 +58,27 @@ Una cámara captura imágenes y las envía a una API para guardarlas y consultar
 </td>
 </tr>
 </table>
+
+## Akineitor de bolsillo
+
+<!-- JUEGO:INICIO -->
+Piensa en un personaje de Dragon Ball y responde a mis preguntas. La partida es compartida: cualquiera que pase por aquí puede contestar la siguiente.
+
+**Partida 1, paso 1.** ¿Apareció por primera vez como enemigo de Goku?
+
+[**Sí**](https://github.com/whiterDJ-adri/whiterDJ-adri/issues/new?title=akineitor%7Cp1-1%7Csi&body=Pulsa%20%C2%ABCreate%C2%BB%20o%20%C2%ABSubmit%20new%20issue%C2%BB%20para%20enviar%20tu%20respuesta.%20No%20hace%20falta%20escribir%20nada%20m%C3%A1s.%0A%0AEn%20unos%20segundos%20el%20perfil%20mostrar%C3%A1%20la%20siguiente%20pregunta.) · [**No**](https://github.com/whiterDJ-adri/whiterDJ-adri/issues/new?title=akineitor%7Cp1-1%7Cno&body=Pulsa%20%C2%ABCreate%C2%BB%20o%20%C2%ABSubmit%20new%20issue%C2%BB%20para%20enviar%20tu%20respuesta.%20No%20hace%20falta%20escribir%20nada%20m%C3%A1s.%0A%0AEn%20unos%20segundos%20el%20perfil%20mostrar%C3%A1%20la%20siguiente%20pregunta.) · [**No lo sé**](https://github.com/whiterDJ-adri/whiterDJ-adri/issues/new?title=akineitor%7Cp1-1%7Cnose&body=Pulsa%20%C2%ABCreate%C2%BB%20o%20%C2%ABSubmit%20new%20issue%C2%BB%20para%20enviar%20tu%20respuesta.%20No%20hace%20falta%20escribir%20nada%20m%C3%A1s.%0A%0AEn%20unos%20segundos%20el%20perfil%20mostrar%C3%A1%20la%20siguiente%20pregunta.)
+
+<sub>Cada respuesta abre un issue ya rellenado: solo tienes que enviarlo. Me quedan 14 de 14 personajes posibles. En esta partida han jugado: nadie todavía.</sub>
+
+<details>
+<summary>¿En quién puedo pensar?</summary>
+
+Goku, Vegeta, Gohan, Trunks, Piccolo, Freezer, Cell, Majin Buu, Bills, Krilin, Bulma, Androide 18, Mr. Satán, Maestro Roshi.
+
+Es una versión de bolsillo de [Akineitor](https://akinator.innovux.es/): en cada paso elige la pregunta que más candidatos puede descartar.
+
+</details>
+<!-- JUEGO:FIN -->
 
 ## Selección de equipo
 
@@ -125,7 +148,17 @@ control_de_versiones = Git
 
 ## Registro de partidas
 
-Cada casilla es un día con commits. La serpiente se los va comiendo; se actualiza sola cada noche.
+Última partida guardada, actualizada cada noche:
+
+<!-- VIVO:INICIO -->
+**[akineitor](https://github.com/whiterDJ-adri/akineitor)**, hace 2 días:
+
+> [arreglar pregunta repetida en la partida \<3](https://github.com/whiterDJ-adri/akineitor/commit/abc)
+
+Esta semana: 21 contribuciones en 5 días, repartidas en 2 repositorios.
+<!-- VIVO:FIN -->
+
+Cada casilla es un día con commits; la serpiente se los va comiendo.
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/whiterDJ-adri/whiterdj-adri/output/oni-snake-dark.svg" />

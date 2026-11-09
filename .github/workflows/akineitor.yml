@@ -1,0 +1,59 @@
+# Procesa cada jugada del Akineitor de bolsillo.
+# Una jugada es un issue cuyo título empieza por "akineitor|" (los enlaces del README lo rellenan solos).
+name: Akineitor
+
+on:
+  issues:
+    types: [opened]
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: escribir-readme # las jugadas se procesan de una en una, en orden de llegada
+  cancel-in-progress: false
+
+jobs:
+  jugar:
+    if: startsWith(github.event.issue.title, 'akineitor|')
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      # El título y el usuario llegan por variables de entorno, nunca pegados dentro del comando:
+      # así nadie puede colar instrucciones de shell escribiendo un título raro.
+      - name: Aplicar la jugada
+        run: node scripts/akineitor.mjs jugar
+        env:
+          AKINEITOR_TITULO: ${{ github.event.issue.title }}
+          AKINEITOR_JUGADOR: ${{ github.event.issue.user.login }}
+          AKINEITOR_COMENTARIO: ${{ runner.temp }}/comentario.md
+
+      - name: Guardar la partida
+        run: |
+          if git diff --quiet; then
+            echo "La jugada no cambió nada (pregunta ya respondida o título no válido)."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -am "Akineitor: jugada de ${AKINEITOR_JUGADOR}"
+          git pull --rebase origin main
+          git push origin HEAD:main
+        env:
+          AKINEITOR_JUGADOR: ${{ github.event.issue.user.login }}
+
+      - name: Responder y cerrar el issue
+        run: |
+          gh issue comment "$ISSUE_NUMBER" --body-file "$RUNNER_TEMP/comentario.md"
+          gh issue close "$ISSUE_NUMBER"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          ISSUE_NUMBER: ${{ github.event.issue.number }}

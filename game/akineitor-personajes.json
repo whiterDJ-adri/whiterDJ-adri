@@ -1,0 +1,33 @@
+{
+  "questions": [
+    {"id": "saiyan", "text": "¿Tiene sangre saiyan?"},
+    {"id": "mujer", "text": "¿Es una mujer?"},
+    {"id": "piel", "text": "¿Su piel es de un color que no tiene ningún humano?"},
+    {"id": "enemigo", "text": "¿Apareció por primera vez como enemigo de Goku?"},
+    {"id": "creado", "text": "¿Lo crearon o lo modificaron con ciencia o con magia?"},
+    {"id": "transforma", "text": "¿Se transforma y cambia de aspecto al pelear?"},
+    {"id": "hijos", "text": "¿Tiene hijos?"},
+    {"id": "vuela", "text": "¿Puede volar sin ninguna máquina?"},
+    {"id": "dios", "text": "¿Es un dios?"},
+    {"id": "maestro", "text": "¿Ha entrenado a Goku o a Gohan?"},
+    {"id": "gafas", "text": "¿Suele llevar gafas de sol?"},
+    {"id": "bigote", "text": "¿Tiene bigote?"},
+    {"id": "rosa", "text": "¿Es de color rosa?"}
+  ],
+  "characters": [
+    {"name": "Goku", "saiyan": true, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": true, "hijos": true, "vuela": true, "dios": false, "maestro": true, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Vegeta", "saiyan": true, "mujer": false, "piel": false, "enemigo": true, "creado": false, "transforma": true, "hijos": true, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Gohan", "saiyan": true, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": true, "hijos": true, "vuela": true, "dios": false, "maestro": false, "gafas": null, "bigote": false, "rosa": false},
+    {"name": "Trunks", "saiyan": true, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": true, "hijos": false, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Piccolo", "saiyan": false, "mujer": false, "piel": true, "enemigo": true, "creado": false, "transforma": null, "hijos": false, "vuela": true, "dios": false, "maestro": true, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Freezer", "saiyan": false, "mujer": false, "piel": true, "enemigo": true, "creado": false, "transforma": true, "hijos": false, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Cell", "saiyan": false, "mujer": false, "piel": true, "enemigo": true, "creado": true, "transforma": true, "hijos": null, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Majin Buu", "saiyan": false, "mujer": false, "piel": true, "enemigo": true, "creado": true, "transforma": true, "hijos": null, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": true},
+    {"name": "Bills", "saiyan": false, "mujer": false, "piel": true, "enemigo": true, "creado": false, "transforma": false, "hijos": false, "vuela": true, "dios": true, "maestro": null, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Krilin", "saiyan": false, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": false, "hijos": true, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": null, "rosa": false},
+    {"name": "Bulma", "saiyan": false, "mujer": true, "piel": false, "enemigo": false, "creado": false, "transforma": false, "hijos": true, "vuela": false, "dios": false, "maestro": false, "gafas": null, "bigote": false, "rosa": false},
+    {"name": "Androide 18", "saiyan": false, "mujer": true, "piel": false, "enemigo": true, "creado": true, "transforma": false, "hijos": true, "vuela": true, "dios": false, "maestro": false, "gafas": false, "bigote": false, "rosa": false},
+    {"name": "Mr. Satán", "saiyan": false, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": false, "hijos": true, "vuela": false, "dios": false, "maestro": false, "gafas": false, "bigote": true, "rosa": false},
+    {"name": "Maestro Roshi", "saiyan": false, "mujer": false, "piel": false, "enemigo": false, "creado": false, "transforma": null, "hijos": false, "vuela": null, "dios": false, "maestro": true, "gafas": true, "bigote": true, "rosa": false}
+  ]
+}

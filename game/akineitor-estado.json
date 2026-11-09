@@ -1,0 +1,28 @@
+{
+  "gameNumber": 1,
+  "stepNumber": 1,
+  "remainingCharacterNames": [
+    "Goku",
+    "Vegeta",
+    "Gohan",
+    "Trunks",
+    "Piccolo",
+    "Freezer",
+    "Cell",
+    "Majin Buu",
+    "Bills",
+    "Krilin",
+    "Bulma",
+    "Androide 18",
+    "Mr. Satán",
+    "Maestro Roshi"
+  ],
+  "askedQuestionIds": [],
+  "playersThisGame": [],
+  "currentStep": {
+    "kind": "question",
+    "questionId": "enemigo",
+    "text": "¿Apareció por primera vez como enemigo de Goku?"
+  },
+  "finishedGames": []
+}
