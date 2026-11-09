@@ -151,11 +151,11 @@ control_de_versiones = Git
 Última partida guardada, actualizada cada noche:
 
 <!-- VIVO:INICIO -->
-**[errorWeb](https://github.com/whiterDJ-adri/errorWeb)**, hace 187 días:
+**[errorWeb](https://github.com/whiterDJ-adri/errorWeb)**, hace 6 meses:
 
 > [Añadir errores de accesibilidad adicionales y mejorar la documentación en errores.md](https://github.com/whiterDJ-adri/errorWeb/commit/32ff71ce9a6e6994898499b6c58a0e2ad56015f7)
 
-Esta semana: 26 contribuciones en 3 días, repartidas en 0 repositorios.
+Esta semana: 28 contribuciones en 3 días.
 <!-- VIVO:FIN -->
 
 Cada casilla es un día con commits; la serpiente se los va comiendo.
