@@ -251,17 +251,10 @@ function buildXpBarBlocks(progressRatio, startX, startY) {
   for (let blockIndex = 0; blockIndex < XP_BAR_BLOCK_COUNT; blockIndex++) {
     const blockX = startX + blockIndex * (blockWidth + blockGap);
     const isFilled = blockIndex < filledBlockCount;
-    if (isFilled) {
-      // Cada bloque lleno aparece con un pequeño retraso: la barra "se carga" una vez al abrir el perfil.
-      const appearDelaySeconds = (0.3 + blockIndex * 0.05).toFixed(2);
-      blocks.push(
-        `<rect class="xp-block" style="animation-delay:${appearDelaySeconds}s" x="${blockX}" y="${startY}" width="${blockWidth}" height="${blockHeight}" fill="${PALETTE.oniYellow}"/>`,
-      );
-    } else {
-      blocks.push(
-        `<rect x="${blockX}" y="${startY}" width="${blockWidth}" height="${blockHeight}" fill="${PALETTE.inkLight}"/>`,
-      );
-    }
+    const blockColor = isFilled ? PALETTE.oniYellow : PALETTE.inkLight;
+    blocks.push(
+      `<rect x="${blockX}" y="${startY}" width="${blockWidth}" height="${blockHeight}" fill="${blockColor}"/>`,
+    );
   }
   return blocks.join("\n");
 }
@@ -310,9 +303,6 @@ async function buildStatsCardSvg({ level, streaks, totalContributions, topLangua
 .pixel { font-family: "Dot", ui-monospace, monospace; fill: ${PALETTE.bone}; }
 .label { font-size: 24px; }
 .small { font-size: 20px; fill: ${PALETTE.boneDim}; }
-.xp-block { animation: fill-in .25s steps(1, end) both; }
-@keyframes fill-in { from { fill: ${PALETTE.inkLight}; } to { fill: ${PALETTE.oniYellow}; } }
-@media (prefers-reduced-motion: reduce) { .xp-block { animation: none; } }
 </style>
 <clipPath id="card-shape"><rect width="${cardWidth}" height="${cardHeight}" rx="18"/></clipPath>
 <g clip-path="url(#card-shape)">
@@ -329,7 +319,7 @@ ${buildXpBarBlocks(level.progressRatio, 56, 172)}
 <line x1="${columnTwoX - 40}" y1="50" x2="${columnTwoX - 40}" y2="250" stroke="${PALETTE.inkLight}" stroke-width="2"/>
 <text class="pixel small" x="${columnTwoX}" y="70">racha actual</text>
 <text class="display" x="${columnTwoX}" y="140" font-size="72">${streaks.currentStreakDays}</text>
-<text class="pixel label" x="${columnTwoX}" y="176">${streaks.currentStreakDays === 1 ? "día" : "días"} seguidos</text>
+<text class="pixel label" x="${columnTwoX}" y="176">${streaks.currentStreakDays === 1 ? "día seguido" : "días seguidos"}</text>
 <text class="pixel small" x="${columnTwoX}" y="234">mejor racha</text>
 <text class="pixel label" x="${columnTwoX}" y="264">${pluralizeDays(streaks.bestStreakDays)}</text>
 
