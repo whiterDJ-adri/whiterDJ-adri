@@ -151,11 +151,11 @@ control_de_versiones = Git
 Última partida guardada, actualizada cada noche:
 
 <!-- VIVO:INICIO -->
-**[akineitor](https://github.com/whiterDJ-adri/akineitor)**, hace 2 días:
+**[errorWeb](https://github.com/whiterDJ-adri/errorWeb)**, hace 187 días:
 
-> [arreglar pregunta repetida en la partida \<3](https://github.com/whiterDJ-adri/akineitor/commit/abc)
+> [Añadir errores de accesibilidad adicionales y mejorar la documentación en errores.md](https://github.com/whiterDJ-adri/errorWeb/commit/32ff71ce9a6e6994898499b6c58a0e2ad56015f7)
 
-Esta semana: 21 contribuciones en 5 días, repartidas en 2 repositorios.
+Esta semana: 26 contribuciones en 3 días, repartidas en 0 repositorios.
 <!-- VIVO:FIN -->
 
 Cada casilla es un día con commits; la serpiente se los va comiendo.
