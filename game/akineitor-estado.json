@@ -1,25 +1,28 @@
 {
   "gameNumber": 1,
-  "stepNumber": 2,
+  "stepNumber": 1,
   "remainingCharacterNames": [
+    "Goku",
     "Vegeta",
+    "Gohan",
+    "Trunks",
     "Piccolo",
     "Freezer",
     "Cell",
     "Majin Buu",
     "Bills",
-    "Androide 18"
+    "Krilin",
+    "Bulma",
+    "Androide 18",
+    "Mr. Satán",
+    "Maestro Roshi"
   ],
-  "askedQuestionIds": [
-    "enemigo"
-  ],
-  "playersThisGame": [
-    "whiterDJ-adri"
-  ],
+  "askedQuestionIds": [],
+  "playersThisGame": [],
   "currentStep": {
     "kind": "question",
-    "questionId": "creado",
-    "text": "¿Lo crearon o lo modificaron con ciencia o con magia?"
+    "questionId": "enemigo",
+    "text": "¿Apareció por primera vez como enemigo de Goku?"
   },
   "finishedGames": []
 }
