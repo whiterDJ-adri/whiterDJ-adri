@@ -155,7 +155,7 @@ control_de_versiones = Git
 
 > [Añadir errores de accesibilidad adicionales y mejorar la documentación en errores.md](https://github.com/whiterDJ-adri/errorWeb/commit/32ff71ce9a6e6994898499b6c58a0e2ad56015f7)
 
-Esta semana: 8 contribuciones en 2 días.
+Esta semana: 7 contribuciones en 1 día.
 <!-- VIVO:FIN -->
 
 Cada casilla es un día con commits; la serpiente se los va comiendo.
