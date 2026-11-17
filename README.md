@@ -151,7 +151,7 @@ control_de_versiones = Git
 Última partida guardada, actualizada cada noche:
 
 <!-- VIVO:INICIO -->
-**[errorWeb](https://github.com/whiterDJ-adri/errorWeb)**, hace 6 meses:
+**[errorWeb](https://github.com/whiterDJ-adri/errorWeb)**, hace 7 meses:
 
 > [Añadir errores de accesibilidad adicionales y mejorar la documentación en errores.md](https://github.com/whiterDJ-adri/errorWeb/commit/32ff71ce9a6e6994898499b6c58a0e2ad56015f7)
 
